@@ -45,7 +45,7 @@ function App() {
     <div className="App">
       <header>
         <div className="user">
-          <img src={jkImage} alt="jaya krishna" />
+          <img src={jkImage} alt="jay krishna" />
           <h3 className="name">jaya krishna</h3>
         </div>
         <nav className="navbar">
@@ -69,9 +69,9 @@ function App() {
         <h1 className="heading"> <span>about</span> me </h1>
         <div className="row">
           <div className="info">
-            <h3> <span> Name : </span> jaya krishna </h3>
+            <h3> <span> Name : </span> Abhiram Reddy </h3>
             <h3> <span> Qualification : </span> B.Tech(pursuing) </h3>
-            <h3> <span> Address</span> bapatla</h3>
+            <h3> <span> Address</span> Konaseema</h3>
             <h3> <span> Strengths : </span> Honesty, Patience, Dedication </h3>
             <h3> <span> Hobbies: </span> Reading Books, Travelling </h3>
             <h3> <span> Language : </span> Telugu, Hindi, English </h3>
@@ -86,14 +86,14 @@ function App() {
             <i className="fas fa-graduation-cap"></i>
             <span>2018-2019</span>
             <h3>SSC</h3>
-            <p style={{ fontSize: '20px' }}>Scts</p>
+            <p style={{ fontSize: '20px' }}>Dr.KKR Gowtham School</p>
           </div>
           <div className="box">
             <i className="fas fa-graduation-cap"></i>
             <span>2019-2021</span>
             <h3>Intermediate</h3>
             <h3>MPC</h3>
-            <p style={{ fontSize: '20px' }}>Vignan</p>
+            <p style={{ fontSize: '20px' }}>Tirumala Junior College</p>
           </div>
           <div className="box">
             <i className="fas fa-graduation-cap"></i>
@@ -111,9 +111,9 @@ function App() {
           <div className="content">
             <h3 className="title">contact info</h3>
             <div className="info">
-              <h3> <i className="fas fa-envelope"></i> jkkolagani@gmail.com</h3>
-              <h3> <i className="fas fa-phone"></i> 9391789724 </h3>
-              <h3> <i className="fas fa-map-marker-alt"></i> bapatla </h3>
+              <h3> <i className="fas fa-envelope"></i> abhiram9229@gmail.com</h3>
+              <h3> <i className="fas fa-phone"></i> 8639815151 </h3>
+              <h3> <i className="fas fa-map-marker-alt"></i> Konaseema </h3>
             </div>
           </div>
         </div>
@@ -121,7 +121,7 @@ function App() {
 
       {showTopButton && (
         <a href="#home" className="top" onClick={(e) => handleLinkClick(e, '#home')}>
-          <img src={jkImage} alt="" />
+          <img src={abhiImage} alt="" />
         </a>
       )}
     </div>
